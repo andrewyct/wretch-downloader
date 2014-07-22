@@ -16,6 +16,13 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
+/**
+* Online photo downloader designed for www.wretch.cc that can batch download user albums (publicly visible albums) based on user accounts. 
+*
+* @author  Chao-te Andrew Yang
+* @version 1.0
+* @since   2013-12-1 
+*/
 public class ImageDownloader {
 	public static void main(String[] args) {
 		// specify user account here
