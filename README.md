@@ -4,6 +4,9 @@ Online photo album downloader for [www.wretch.cc](http://en.wikipedia.org/wiki/W
 
 *wretch-downloader* will parse the HTML information found on the given account, continuously search for the next available album, get the image url (the Mapping), and download the images automatically until it reaches the end of the last album.
 
+###Getting Started
+The jsoup library ([download here](http://jsoup.org)) is required to run this program.
+
 ###Download the Images
 Specify user account:
 ```java
