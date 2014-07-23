@@ -7,27 +7,31 @@ Online photo album downloader for [www.wretch.cc](http://en.wikipedia.org/wiki/W
 *** *UPDATE* *** 
 The website has been [shut down](http://thenextweb.com/asia/2013/08/30/yahoo-owned-taiwanese-blogging-platform-wretch-cc-is-shutting-down-on-december-26/) since December 2013.
 
+<br />  
 ###Getting Started
 The jsoup library ([download here](http://jsoup.org)) is required to run this program.
 
+<br />  
 ###Download the Images
-Specify user account:
+
+####Specify user account:
 ```java
 WretchAlbumDownloader d = new WretchAlbumDownloader("user_account");
 ```
-To download single album:
+<br />  
+####To download single album:
 ```java
 d.download(target_path, album_id)
 ```
-
-To download multiple albums: 
+<br />  
+####To download multiple albums: 
 ```java
 d.download(target path, album_start, album_end)
 ```
-
-To download all albums:
+<br />  
+####To download all albums:
 ```java
 d.download(target_path)
 ```
-
+<br />  
 Any feedback is welcome :)  Please kindly provide your ideas at andrewy.dev@gmail.com
