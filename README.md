@@ -9,7 +9,7 @@ The website has been [shut down](http://thenextweb.com/asia/2013/08/30/yahoo-own
 
 <br />  
 ###Getting Started
-The jsoup library ([download here](http://jsoup.org)) is required to run this program.
+The jsoup library ([download here](http://jsoup.org)) is required.
 
 <br />  
 ###Download the Images
@@ -34,4 +34,3 @@ d.download(target path, album_start, album_end)
 d.download(target_path)
 ```
 <br />  
-Any feedback is welcome :)  Please kindly provide your ideas at andrewy.dev@gmail.com
